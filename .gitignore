@@ -1,0 +1,15 @@
+node_modules/
+dist/
+evidence/
+*.log
+*.zip
+launcher.lock
+state.json
+last-error.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,31 @@
+name: 问题反馈
+description: 报告无法启动、漏译或界面行为异常
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交密钥、账户信息、完整日志或真实游戏项目。安全漏洞请使用 SECURITY.md 中的私密报告方式。
+  - type: input
+    id: version
+    attributes:
+      label: Flockbay / 汉化工具 / Node.js 版本
+      placeholder: Flockbay 3.5.13 / 1.0.0 / Node.js 24
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows 版本
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
